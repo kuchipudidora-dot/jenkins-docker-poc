@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/<YOUR-USERNAME>/jenkins-docker-poc.git'
+                    url: 'https://github.com/kuchipudidora-dot/jenkins-docker-poc.git'
             }
         }
 
